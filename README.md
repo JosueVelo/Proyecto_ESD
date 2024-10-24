@@ -1,2 +1,3 @@
-# SalaryBoost
-Proyecto 1 de Ética y Seguridad de Datos 
+# **Caso de Negocio: SalaryBoost**
+
+**Descripción del Proyecto:** SalaryBoost es una plataforma web diseñada para automatizar y optimizar el proceso de aumento salarial en pequeñas y medianas empresas, basado en el rendimiento de los empleados medido a través de indicadores clave como el Performance Score y el Current Employee Rating. La plataforma permite a los supervisores gestionar los aumentos salariales y realizar acciones administrativas (filtrado de empleados, modificación de datos, eliminación o registro de nuevos empleados), mientras que los empleados pueden acceder a sus datos personales y laborales, y visualizar si han sido beneficiados con un aumento.
