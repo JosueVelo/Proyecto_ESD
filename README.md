@@ -90,9 +90,21 @@ SalaryBoost realiza **backups periódicos** de la base de datos para prevenir la
 
 SalaryBoost cumple con varios requerimientos clave en cuanto a seguridad, gestión de datos y requisitos técnicos. A través de la implementación de SSL, autenticación de dos factores y gestión de accesos, se asegura la protección de los datos sensibles de los empleados y supervisores. Sin embargo, se recomienda implementar las siguientes mejoras a futuro:
 
-- **Cifrado de contraseñas** en la base de datos para proteger las credenciales almacenadas.
-- **Consultas parametrizadas** para evitar ataques de inyección SQL.
-- **Auditorías de seguridad** y registros detallados para monitorear actividades críticas en la plataforma.
-- **Cifrado de datos en reposo** para proteger la información almacenada.
+### Recomendaciones de Protección de Datos Futura
+
+1. **Auditoría de Seguridad Periódica**
+   - **Justificación**: La implementación de auditorías de seguridad regulares permitirá identificar y corregir vulnerabilidades antes de que sean explotadas. Estas auditorías pueden ayudar a evaluar la eficacia de las medidas de seguridad actuales y garantizar el cumplimiento con las mejores prácticas.
+
+2. **Educación y Concientización en Ciberseguridad**
+   - **Justificación**: Invertir en programas de formación continua para todos los empleados sobre las mejores prácticas en ciberseguridad es crucial. Esto ayudará a crear una cultura de seguridad dentro de la organización y a reducir el riesgo de errores humanos que podrían comprometer los datos.
+
+3. **Implementación de un Sistema de Gestión de Incidentes de Seguridad**
+   - **Justificación**: Desarrollar un sistema robusto para gestionar incidentes de seguridad garantizará que todos los incidentes sean registrados, analizados y tratados de manera eficiente. Esto permitirá una respuesta rápida y efectiva a cualquier fuga de datos o incidente de seguridad.
+
+4. **Mejoras en la Autenticación Multifactor (MFA)**
+   - **Justificación**: Considerar la adopción de métodos de MFA más avanzados, como biometría o tokens de hardware, podría aumentar la seguridad del acceso a la plataforma. Esto dificultará el acceso no autorizado incluso si las credenciales se ven comprometidas.
+
+5. **Implementación de Políticas de Retención de Datos**
+    - **Justificación**: Desarrollar políticas claras sobre la retención y eliminación de datos ayudará a garantizar que la organización no mantenga información innecesaria, reduciendo el riesgo en caso de una violación de datos. Esto es especialmente importante para cumplir con las regulaciones de protección de datos.
 
 Implementar estas recomendaciones fortalecerá aún más la plataforma SalaryBoost y garantizará el cumplimiento de estándares de seguridad más altos.
