@@ -43,15 +43,6 @@ Se ha establecido un plan básico para mitigar incidentes de seguridad en caso d
 - **Aislamiento y Recuperación**: Se aislará la base de datos afectada y se procederá a la recuperación mediante **backups** periódicos.
 - **Reporte de Incidente**: Se documentará el incidente y se informará a las autoridades y usuarios afectados, cumpliendo con la normativa vigente.
 
-### 2.3. Recomendaciones Futuras de Protección de Datos
-Existen medidas de seguridad que no se han implementado pero que se recomiendan para el futuro:
-
-- **Cifrado de Contraseñas en la Base de Datos**: Aunque las contraseñas son verificadas a través de una autenticación de dos factores (MFA), se recomienda implementar algoritmos como bcrypt o Argon2 para cifrar las contraseñas en la base de datos.
-- **Auditoría de Seguridad**: Implementar una auditoría periódica de seguridad para revisar posibles vulnerabilidades y actualizar las medidas de protección.
-- **Registro Detallado de Logs**: Mejorar la gestión de logs para registrar acciones críticas (como la eliminación o modificación de datos) y detectar comportamientos inusuales.
-- **Protección Avanzada contra Ataques SQL Injection**: Si bien las medidas básicas contra SQL Injection están presentes, se recomienda profundizar en el uso de consultas parametrizadas en todas las interacciones con la base de datos.
-- **Cifrado de Datos en Reposo**: Implementar un cifrado avanzado de los datos en reposo dentro de la base de datos para proteger la información incluso si se accede a los servidores.
-
 ---
 
 ## 3. Cumplimiento de Otros Requerimientos Técnicos
